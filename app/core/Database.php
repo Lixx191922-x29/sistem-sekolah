@@ -5,7 +5,7 @@ require_once '../app/config/app.php';
 class Database
 {
 
-    protected function_construct()
+    protected function _construct()
     {
         $this->connection = mysqli_connect(
             DB_HOST,
