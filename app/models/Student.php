@@ -3,7 +3,8 @@ namespace App\Models;
 require_once '../app/core/Database.php';
 
 use App\Core\Database;
-class students extends Database
+
+class Student extends Database
 {
     protected $table = 'students';
 
